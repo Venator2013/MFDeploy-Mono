@@ -106,8 +106,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <Content Include="MFDeploy.exe.config" />
-    <Content Include="MFDeploy.chm" />
     <None Include="Properties\Settings.settings" />
     <None Include="MFDeployForm.resx">
       <DependentUpon>MFDeployForm.cs</DependentUpon>
