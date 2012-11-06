@@ -11,8 +11,6 @@
     <RootNamespace>Microsoft.NetMicroFramework.Tools.MFDeployTool</RootNamespace>
     <AssemblyName>MFDeploy</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -155,13 +153,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Debugger\Debugger.csproj">
-      <Project>{18C68DBC-CEDC-494B-A72F-932C11D16799}</Project>
-      <Name>Debugger</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Library\MFDeployEngine.csproj">
       <Project>{B492F286-5176-4E22-A3FA-756AD0409958}</Project>
       <Name>MFDeployEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Debugger\Debugger.csproj">
+      <Project>{18C68DBC-CEDC-494B-A72F-932C11D16799}</Project>
+      <Name>Debugger</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

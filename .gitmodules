@@ -1,0 +1,3 @@
+[submodule "Debugger"]
+    path = Debugger
+    url = git@github.com:madrang/MFDebugger-Mono.git

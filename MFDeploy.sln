@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFDeploy", "Application\MFDeploy.csproj", "{48D5251D-FEA4-4EA8-8731-2F82223131A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugger", "..\..\Debugger\Debugger.csproj", "{18C68DBC-CEDC-494B-A72F-932C11D16799}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugger", "Debugger\Debugger.csproj", "{18C68DBC-CEDC-494B-A72F-932C11D16799}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFDeployEngine", "Library\MFDeployEngine.csproj", "{B492F286-5176-4E22-A3FA-756AD0409958}"
 EndProject
