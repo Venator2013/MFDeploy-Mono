@@ -833,6 +833,22 @@ namespace Microsoft.NetMicroFramework.Tools.MFDeployTool.Properties
 				return "Serial";
 			}
 		}
+
+		public static string TransportUsb
+		{
+			get
+			{
+				return "Usb";
+			}
+		}
+
+		public static string TransportTcpIp
+		{
+			get
+			{
+				return "Tcp";
+			}
+		}
 		
 		public static string UsbTitle
 		{

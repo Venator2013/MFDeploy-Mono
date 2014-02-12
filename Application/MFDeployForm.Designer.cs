@@ -100,9 +100,9 @@ namespace Microsoft.NetMicroFramework.Tools.MFDeployTool
             this.comboBoxTransport.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxTransport.FormattingEnabled = true;
             this.comboBoxTransport.Items.AddRange(new object[] {
-            global::Microsoft.NetMicroFramework.Tools.MFDeployTool.Properties.Resources.TransportSerial /* ,
-            global::Microsoft.NetMicroFramework.Tools.MFDeployTool.Properties.Resources.TransportUsb,
-            global::Microsoft.NetMicroFramework.Tools.MFDeployTool.Properties.Resources.TransportTcpIp */});
+            global::Microsoft.NetMicroFramework.Tools.MFDeployTool.Properties.Resources.TransportSerial  ,
+				global::Microsoft.NetMicroFramework.Tools.MFDeployTool.Properties.Resources.TransportUsb/*,
+				global::Microsoft.NetMicroFramework.Tools.MFDeployTool.Properties.Resources.TransportTcpIp */});
             this.comboBoxTransport.Location = new System.Drawing.Point(6, 19);
             this.comboBoxTransport.Name = "comboBoxTransport";
             this.comboBoxTransport.Size = new System.Drawing.Size(87, 21);
